@@ -6,9 +6,11 @@ function findLargest(a, b, c) {
 	let largestNum=-Infinity;
 	if(a>b && b>c){
 		largestNum=a;
-	}else if(b>a && a>c){
+	}
+	if(b>a && a>c){
 		largestNum=b
-	}else if(c>b && b>a){
+	}
+	if(c>b && b>a){
 		largestNum=c
 	}
 
@@ -18,7 +20,7 @@ function findLargest(a, b, c) {
 	 
 }
 
-const num1 = parseInt(prompt("Enter First Number."));
-const num2 = parseInt(prompt("Enter Second Number."));
-const num3 = parseInt(prompt("Enter Third Number."));
-alert(findLargest(num1, num2, num3));
+// const num1 = parseInt(prompt("Enter First Number."));
+// const num2 = parseInt(prompt("Enter Second Number."));
+// const num3 = parseInt(prompt("Enter Third Number."));
+// alert(findLargest(num1, num2, num3));
