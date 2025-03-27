@@ -1,5 +1,8 @@
 function findLargest(a, b, c) {
   //your code here
+	a=parseInt(a)
+	b=parseInt(b);
+	c=parseInt(c);
 	let largestNum=-Infinity;
 	if(a>b && b>c){
 		largestNum=a;
